@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, {FC} from 'react'
+import { Navbar} from './ui'
 import { LayoutProps } from '../../interfaces'
 
 
@@ -19,7 +20,7 @@ export const EcommerceLayout: FC <LayoutProps> = ({children, title, pageDescipti
         
         </Head>
         <nav>
-            {/** TODO: Navbar */}
+            <Navbar />
         </nav>
         {/** TODO: SideMenu */}
         <main style={{
